@@ -150,14 +150,14 @@ body {
   margin-top: 3rem;
 }
 .how-to-use {
-    border: 2px solid #4CAF50; /* Example border */
-    padding: 20px; /* Add space inside the border */
-    border-radius: 8px; /* Optional: rounded corners */
-    background-color: #f9f9f9; /* Optional: subtle background */
+    border: 2px solid #4CAF50; 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
 }
 
 .how-to-use ul {
-    padding-left: 20px; /* Indent bullet points */
-    margin-top: 10px;   /* Space between heading and bullets */
+    padding-left: 20px; 
+    margin-top: 10px;   
 }
 
