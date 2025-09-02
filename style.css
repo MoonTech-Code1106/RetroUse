@@ -24,7 +24,7 @@ body {
 
 /* Header */
 .header {
-  background: linear-gradient(to right, indianred, #6b21a8, #0891b2); /* Green to Purple to Cyan */
+  background: linear-gradient(to right, #cd5c5cd7, #6b21a8d7, #0891b2d7); /* Green to Purple to Cyan */
   color: #fff;
   padding: 1rem 0;
   position: sticky;
@@ -57,7 +57,7 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(to right, indianred, #7e22ce, #06b6d4); /* Green → Purple → Cyan */
+  background: linear-gradient(to right, #cd5c5c, #7e22ce, #06b6d4); /* Green → Purple → Cyan */
   color: white;
   text-align: center;
   padding: 6rem 2rem;
