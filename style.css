@@ -12,14 +12,40 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f9fafb;
-  color: #222;
+  background: #f9fafb;
+}
+.body-dm {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #001121;
+}
+.BodyGS{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9fafb;
+}
+.BodyGS-dm{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #001121;
 }
 
 .container {
   width: 90%;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto;;
+}
+.containerB {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;;
+}
+.containerB-dm {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;;
+  color: #9b9bff;
+  background: #001121;
 }
 
 /* Header */
@@ -61,6 +87,7 @@ body {
   color: white;
   text-align: center;
   padding: 6rem 2rem;
+  margin-bottom: 3rem;
 }
 
 .hero h2 {
@@ -92,11 +119,38 @@ body {
 .section {
   padding: 4rem 2rem;
   background: #fff;
+  color: black;
+}
+.sectionGS-dm h2,
+.sectionGS-dm ol,
+.sectionGS-dm li,
+.sectionGS-dm p,
+.sectionGS-dm a,
+.sectionGS-dm strong {
+  background: transparent !important;
+  color: #9b9bff !important;
+}
+.sectionDM {
+  padding: 4rem 2rem;
+  background: #001121;
+  color: rgb(155, 155, 255);
+}
+.sectionGS-dm {
+  padding: 4rem 2rem;
+  background: #001121 !important;
+  color: #9b9bff;
 }
 
+.sectionGS {
+  padding: 4rem 2rem;
+  background: #fff;
+  color: black;
+}
 .section.alt {
   background: #f3f4f6;
+  color: black;
 }
+
 
 .section h3 {
   font-size: 2rem;
@@ -127,6 +181,15 @@ body {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.cardDM {
+  background: #001121;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(47, 106, 255, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
 
 .card:hover {
   transform: translateY(-5px);
@@ -159,5 +222,81 @@ body {
 .how-to-use ul {
     padding-left: 20px; 
     margin-top: 10px;   
+}
+.SwitchDM{
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    height: 45px;
+    width: auto;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+}
+/* Download Box */
+.download-box {
+  background: linear-gradient(90deg, #f3f4f6 70%, #e0e7ff 100%);
+  border: 2px solid #22ce25;
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(47, 106, 255, 0.08);
+  text-align: center;
+}
+
+.download-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #22ce25;
+}
+
+.download-box p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #30ce22;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+  box-shadow: 0 2px 8px rgba(47, 106, 255, 0.12);
+}
+
+.download-btn:hover {
+  background: #3dd928;
+}
+.download-box-dm {
+  background: linear-gradient(90deg, #013220 70%, #065f46 100%);
+  border: 2px solid #22c55e;
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.18);
+  text-align: center;
+}
+
+.download-box-dm h3 {
+  color: #22c55e;
+}
+
+.download-box-dm p {
+  color: #bbf7d0;
+}
+
+.download-box-dm .download-btn {
+  background: #22c55e;
+  color: #013220;
+}
+
+.download-box-dm .download-btn:hover {
+  background: #bbf7d0;
+  color: #065f46;
 }
 

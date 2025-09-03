@@ -7,7 +7,17 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
+<body class="BodyGS" id="bodyGS">
+  <header class="header">
+    <div class="container header-inner">
+      <h1 class="logo">
+        <img src="RetroUse-NavLogo.png" alt="NavLogo"> RetroUse
+      </h1>
+      <nav class="nav">
+        <img src="Dark.png" alt="Switch" class="SwitchDM" id="SwitchDMGS" onclick="toggleDarkModeGS()">
+      </nav>
+    </div>
+  </header>
 
   <!-- Hero Section -->
   <section class="hero small-hero">
@@ -18,8 +28,8 @@
   </section>
 
   <!-- Instructions Section -->
-  <section class="section">
-    <div class="container">
+  <section class="sectionGS" id="sectionGS">
+    <div class="containerB">
       <h2>Setup Instructions</h2>
       <ol class="steps">
         <li>Download the RetroUse app using the button below.</li>
@@ -41,5 +51,8 @@
   <footer class="footer">
     <p>&copy; 2025 RetroUse | For Earth’s Sake</p>
   </footer>
+
+  <!-- External JavaScript -->
+  <script src="Site1.js"></script>
 </body>
 </html>
