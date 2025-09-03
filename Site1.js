@@ -14,9 +14,9 @@ function toggleDarkMode() {
   }
 
   if (body.classList.contains("body-dm")) {
-    if (DMID) DMID.src = "Light.png";  
+    if (DMID) DMID.src = "Dark.png";  
   } else {
-    if (DMID) DMID.src = "Dark.png";   
+    if (DMID) DMID.src = "Light.png";   
   }
 }
 
@@ -37,8 +37,8 @@ function toggleDarkModeGS() {
   });
 
   if (bodyGS.classList.contains("BodyGS-dm")) {
-    DMIDGS.src = "Light.png";  
+    DMIDGS.src = "Dark.png";  
   } else {
-    DMIDGS.src = "Dark.png";   
+    DMIDGS.src = "Light.png";   
   }
 }
