@@ -42,3 +42,6 @@ function toggleDarkModeGS() {
     DMIDGS.src = "Light.png";   
   }
 }
+function SwitchToGS() {
+  window.location.href = "Get_Started.html";
+}

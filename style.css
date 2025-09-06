@@ -101,24 +101,10 @@ body {
   margin-bottom: 2rem;
 }
 
-.btn {
-  background: #fde047;
-  color: #222;
-  padding: 0.8rem 1.5rem;
-  border-radius: 50px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #facc15;
-}
-
 /* Sections */
 .section {
   padding: 4rem 2rem;
-  background: #fff;
+  background: transparent;
   color: black;
 }
 .sectionGS-dm h2,
@@ -299,4 +285,50 @@ body {
   background: #bbf7d0;
   color: #065f46;
 }
+.GS {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 50px;
+  position: relative;
+  background: #fde047;
+  width: 270px;
+  color: #001121;
+  font-weight: 500;
+  overflow: visible; 
+  cursor: pointer;
+}
 
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.GS::after, .GS::before {
+  content: '';
+  position: absolute;
+  height: calc(100% + 8px); 
+  width: calc(100% + 8px);  
+  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 50px; 
+  animation: 3s spin linear infinite;
+}
+.GS::before {
+  filter: blur(1.5rem);
+  opacity: 0.5;
+}
+@keyframes spin{
+  from{
+    --angle: 0deg;
+  }
+  to{
+    --angle: 360deg;
+  }
+}
