@@ -223,7 +223,7 @@ body {
 /* Download Box */
 .download-box {
   background: linear-gradient(90deg, #f3f4f6 70%, #e0e7ff 100%);
-  border: 2px solid #06402B;
+  border: 2px solid #2E6F40;
   border-radius: 16px;
   padding: 2rem;
   margin: 2rem 0;
@@ -234,7 +234,7 @@ body {
 .download-box h3 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #06402B;
+  color: #2E6F40;
 }
 
 .download-box p {
